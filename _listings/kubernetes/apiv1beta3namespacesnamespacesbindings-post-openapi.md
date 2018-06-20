@@ -1,0 +1,77 @@
+---
+swagger: "2.0"
+x-collection-name: Kubernetes
+x-complete: 0
+info:
+  title: Kubernetes Post Namespaces Bindings
+  version: 1.0.0
+  description: Create a binding.
+host: /api/v1beta3
+basePath: 127.0.0.1:6443
+schemes:
+- http
+produces:
+- application/json
+consumes:
+- application/json
+paths:
+  /api/v1beta3/namespaces:
+    get:
+      summary: Get Namespaces
+      description: List objects of kind namespace.
+      operationId: listNamespace
+      x-api-path-slug: apiv1beta3namespaces-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Namespaces
+    post:
+      summary: Post Namespaces
+      description: Create a namespace.
+      operationId: createNamespace
+      x-api-path-slug: apiv1beta3namespaces-post
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Namespaces
+  /api/v1beta3/namespaces/{namespaces}/bindings:
+    post:
+      summary: Post Namespaces Bindings
+      description: Create a binding.
+      operationId: createBinding
+      x-api-path-slug: apiv1beta3namespacesnamespacesbindings-post
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: namespaces
+        description: object name and auth scope, such as for teams and projects
+      responses:
+        200:
+          description: OK
+      tags:
+      - Namespaces
+      - Bindings
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---
