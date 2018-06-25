@@ -4,7 +4,7 @@ description: This is a repository of name APIs, self-contained as a Github repos
   with HTML and YAML representations of the APIs and their surrounding operations.
 image: http://template.streamdata.gallery/assets/name.png
 created: "2018-02-24"
-modified: "2018-06-20"
+modified: "2018-06-25"
 url: http://name.streamdata.gallery/apis.json
 specificationVersion: "0.14"
 apis: []
@@ -72,14 +72,14 @@ include:
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/github/apis.yaml
 - name: YouTube
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/youtube/apis.yaml
-- name: Lykke
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/lykke/apis.yaml
-- name: LinkedIn
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/linkedin/apis.yaml
 - name: Datadog
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/datadog/apis.yaml
 - name: Dyn
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/dyn/apis.yaml
+- name: Lykke
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/lykke/apis.yaml
+- name: LinkedIn
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/linkedin/apis.yaml
 - name: Bitbucket
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/bitbucket/apis.yaml
 - name: Xignite
@@ -92,16 +92,16 @@ include:
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/xignite/apis.yaml
 - name: Xignite
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/xignite/apis.yaml
+- name: Factual
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/factual/apis.yaml
+- name: FullContact
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/fullcontact/apis.yaml
 - name: ParallelDots
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/paralleldots/apis.yaml
 - name: Healthcare.gov
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/healthcare-gov/apis.yaml
 - name: Healthcare.gov
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/healthcare-gov/apis.yaml
-- name: Factual
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/factual/apis.yaml
-- name: FullContact
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/fullcontact/apis.yaml
 - name: Mattermost
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/mattermost/apis.yaml
 - name: CallFire
@@ -128,8 +128,8 @@ include:
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/fire-browse-beta-api/apis.yaml
 - name: BC Geographical Names
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/bc-geographical-names/apis.yaml
-- name: SwaggerHub
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/swaggerhub/apis.yaml
+- name: Swagger
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/swagger/apis.yaml
 - name: Envestnet
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/envestnet/apis.yaml
 - name: EhrScape
