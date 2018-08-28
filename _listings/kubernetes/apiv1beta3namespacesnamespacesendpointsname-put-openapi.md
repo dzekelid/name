@@ -15,6 +15,87 @@ produces:
 consumes:
 - application/json
 paths:
+  /api/v1beta3/namespaces:
+    get:
+      summary: Get Namespaces
+      description: List objects of kind namespace.
+      operationId: listNamespace
+      x-api-path-slug: apiv1beta3namespaces-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Namespaces
+    post:
+      summary: Post Namespaces
+      description: Create a namespace.
+      operationId: createNamespace
+      x-api-path-slug: apiv1beta3namespaces-post
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Namespaces
+  /api/v1beta3/namespaces/{namespaces}/bindings:
+    post:
+      summary: Post Namespaces Bindings
+      description: Create a binding.
+      operationId: createBinding
+      x-api-path-slug: apiv1beta3namespacesnamespacesbindings-post
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: namespaces
+        description: object name and auth scope, such as for teams and projects
+      responses:
+        200:
+          description: OK
+      tags:
+      - Namespaces
+      - Bindings
+  /api/v1beta3/namespaces/{namespaces}/endpoints:
+    get:
+      summary: Get Namespaces Endpoints
+      description: List objects of kind endpoints.
+      operationId: listEndpoints
+      x-api-path-slug: apiv1beta3namespacesnamespacesendpoints-get
+      parameters:
+      - in: path
+        name: namespaces
+        description: object name and auth scope, such as for teams and projects
+      responses:
+        200:
+          description: OK
+      tags:
+      - Namespaces
+      - Endpoints
+    post:
+      summary: Post Namespaces Endpoints
+      description: Create a endpoints.
+      operationId: createEndpoints
+      x-api-path-slug: apiv1beta3namespacesnamespacesendpoints-post
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: namespaces
+        description: object name and auth scope, such as for teams and projects
+      responses:
+        200:
+          description: OK
+      tags:
+      - Namespaces
+      - Endpoints
   /api/v1beta3/namespaces/{namespaces}/endpoints/{name}:
     get:
       summary: Get Namespaces Endpoints Name

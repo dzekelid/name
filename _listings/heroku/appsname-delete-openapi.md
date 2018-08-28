@@ -15,6 +15,49 @@ produces:
 consumes:
 - application/json
 paths:
+  /apps/{app}/domains/{domain_name}:
+    parameters:
+      summary: Parameters Application Domain Name
+      description: Parameters application domain name.
+      operationId: parametersAppsAppDomainsDomainName
+      x-api-path-slug: appsappdomainsdomain-name-parameters
+      responses:
+        200:
+          description: OK
+      tags:
+      - Parameters
+      - Application
+      - Domain
+      - Name
+    delete:
+      summary: Delete Application Domain Name
+      description: Delete application domain name.
+      operationId: deleteAppsAppDomainsDomainName
+      x-api-path-slug: appsappdomainsdomain-name-delete
+      parameters:
+      - in: header
+        name: Accept
+        description: Content type
+      - in: query
+        name: Accept
+        description: Content type
+      - in: query
+        name: app
+        description: The app name
+      - in: path
+        name: app
+      - in: query
+        name: domain_name
+        description: The domain to remove
+      - in: path
+        name: domain_name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Application
+      - Domain
+      - Name
   /apps/{name}:
     parameters:
       summary: Parameters Applications Name

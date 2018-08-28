@@ -19,28 +19,6 @@ produces:
 consumes:
 - application/json
 paths:
-  /api/v1/catalog/analytics/versions:
-    get:
-      summary: Get all versions of the analytic catalog entry with the given name.
-      description: Returns all versions of the analytic catalog entry with the given
-        name.
-      operationId: retrieveByName
-      x-api-path-slug: apiv1cataloganalyticsversions-get
-      parameters:
-      - in: query
-        name: name
-        description: analytic name
-      responses:
-        2:
-          description: Successful response
-      tags:
-      - Versions
-      - Of
-      - Analytic
-      - Catalog
-      - Entry
-      - Given
-      - Name
   /api/v2/config/orchestrations/models:
     post:
       summary: Upload a model.

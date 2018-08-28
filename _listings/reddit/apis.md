@@ -12,23 +12,6 @@ modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/reddit/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Reddit - Delete Subreddit Emoji Emoji Name
-  x-api-slug: v1subredditemojiemoji-name-deletenbsp
-  description: |-
-    Delete a Subreddit emoji.
-    Remove the emoji from Cassandra and purge the assets from S3
-    and the image resizing provider.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddit.jpg
-  humanURL: http://www.reddit.com
-  baseURL: https://www.reddit.com//
-  tags: Social, Social, My API Stack, Links, Stack Network, Stack, Media, internet,
-    Mobile, Technology, SDIO Syndication, General Data, Pedestal, Relative StreamRank,
-    Streams
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/reddit/v1subredditemojiemoji-name-deletenbsp-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/reddit/v1subredditemojiemoji-name-deletenbsp-openapi.md
 - name: Reddit - Get Search Reddit Names
   x-api-slug: apisearch-reddit-names-json-get
   description: List subreddit names that begin with a query string.

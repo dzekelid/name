@@ -20,25 +20,6 @@ produces:
 consumes:
 - application/json
 paths:
-  /api/2/projectvalidate/validProjectName:
-    get:
-      summary: Get valid project name
-      description: Validates a project name. If the name is invalid, an attempt is
-        made to produce a valid name based on the supplied one. If no such valid name
-        can be found, an empty string is returned.
-      operationId: com.atlassian.jira.rest.v2.issue.ProjectValidateResource.getValidProjectName_get
-      x-api-path-slug: api2projectvalidatevalidprojectname-get
-      parameters:
-      - in: query
-        name: name
-        description: the project name
-      responses:
-        200:
-          description: OK
-      tags:
-      - Valid
-      - Project
-      - Name
   /api/2/component/{id}:
     put:
       summary: Update component
@@ -59,6 +40,25 @@ paths:
           description: OK
       tags:
       - Component
+  /api/2/projectvalidate/validProjectName:
+    get:
+      summary: Get valid project name
+      description: Validates a project name. If the name is invalid, an attempt is
+        made to produce a valid name based on the supplied one. If no such valid name
+        can be found, an empty string is returned.
+      operationId: com.atlassian.jira.rest.v2.issue.ProjectValidateResource.getValidProjectName_get
+      x-api-path-slug: api2projectvalidatevalidprojectname-get
+      parameters:
+      - in: query
+        name: name
+        description: the project name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Valid
+      - Project
+      - Name
   /api/2/status/{idOrName}:
     get:
       summary: Get status

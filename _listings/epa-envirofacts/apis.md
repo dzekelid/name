@@ -30,22 +30,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/epa-envirofacts/air-rest-services-metadata-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/epa-envirofacts/air-rest-services-metadata-get-openapi.md
-- name: U.S. EPA Enforcement and Compliance History Online (ECHO) - Clean Water Act
-    (CWA) Rest Services - ECHO WBD Name Lookup Service
-  x-api-slug: rest-lookups-wbd-name-lu-get
-  description: USGS Watershed Boundary Dataset (WBD) Code lookup based on a supplied
-    WBD Name and Watershed Level
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/773-epa-envirofacts.jpg
-  humanURL: http://www.epa.gov
-  baseURL: https://ofmpub.epa.gov//echo
-  tags: Environmental database, Environment, Science, Dead, Environment, Federal Government,
-    Stack Network, Enterprise, API Provider, Profiles, General Data, Historical Data
-    API
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/epa-envirofacts/rest-lookups-wbd-name-lu-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/epa-envirofacts/rest-lookups-wbd-name-lu-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://envestnet.api.gallery.streamdata.io

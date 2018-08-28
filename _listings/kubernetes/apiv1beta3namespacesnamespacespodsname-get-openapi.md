@@ -15,6 +15,87 @@ produces:
 consumes:
 - application/json
 paths:
+  /api/v1beta3/namespaces:
+    get:
+      summary: Get Namespaces
+      description: List objects of kind namespace.
+      operationId: listNamespace
+      x-api-path-slug: apiv1beta3namespaces-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Namespaces
+    post:
+      summary: Post Namespaces
+      description: Create a namespace.
+      operationId: createNamespace
+      x-api-path-slug: apiv1beta3namespaces-post
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Namespaces
+  /api/v1beta3/namespaces/{namespaces}/bindings:
+    post:
+      summary: Post Namespaces Bindings
+      description: Create a binding.
+      operationId: createBinding
+      x-api-path-slug: apiv1beta3namespacesnamespacesbindings-post
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: namespaces
+        description: object name and auth scope, such as for teams and projects
+      responses:
+        200:
+          description: OK
+      tags:
+      - Namespaces
+      - Bindings
+  /api/v1beta3/namespaces/{namespaces}/endpoints:
+    get:
+      summary: Get Namespaces Endpoints
+      description: List objects of kind endpoints.
+      operationId: listEndpoints
+      x-api-path-slug: apiv1beta3namespacesnamespacesendpoints-get
+      parameters:
+      - in: path
+        name: namespaces
+        description: object name and auth scope, such as for teams and projects
+      responses:
+        200:
+          description: OK
+      tags:
+      - Namespaces
+      - Endpoints
+    post:
+      summary: Post Namespaces Endpoints
+      description: Create a endpoints.
+      operationId: createEndpoints
+      x-api-path-slug: apiv1beta3namespacesnamespacesendpoints-post
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: namespaces
+        description: object name and auth scope, such as for teams and projects
+      responses:
+        200:
+          description: OK
+      tags:
+      - Namespaces
+      - Endpoints
   /api/v1beta3/namespaces/{namespaces}/endpoints/{name}:
     get:
       summary: Get Namespaces Endpoints Name
@@ -58,6 +139,41 @@ paths:
       - Namespaces
       - Endpoints
       - Name
+  /api/v1beta3/namespaces/{namespaces}/events:
+    get:
+      summary: Get Namespaces Events
+      description: List objects of kind event.
+      operationId: listEvent
+      x-api-path-slug: apiv1beta3namespacesnamespacesevents-get
+      parameters:
+      - in: path
+        name: namespaces
+        description: object name and auth scope, such as for teams and projects
+      responses:
+        200:
+          description: OK
+      tags:
+      - Namespaces
+      - Events
+    post:
+      summary: Post Namespaces Events
+      description: Create a event.
+      operationId: createEvent
+      x-api-path-slug: apiv1beta3namespacesnamespacesevents-post
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: namespaces
+        description: object name and auth scope, such as for teams and projects
+      responses:
+        200:
+          description: OK
+      tags:
+      - Namespaces
+      - Events
   /api/v1beta3/namespaces/{namespaces}/events/{name}:
     delete:
       summary: Delete Namespaces Events Name
@@ -120,6 +236,41 @@ paths:
       - Namespaces
       - Events
       - Name
+  /api/v1beta3/namespaces/{namespaces}/limitranges:
+    get:
+      summary: Get Namespaces Limitranges
+      description: List objects of kind limitrange.
+      operationId: listLimitRange
+      x-api-path-slug: apiv1beta3namespacesnamespaceslimitranges-get
+      parameters:
+      - in: path
+        name: namespaces
+        description: object name and auth scope, such as for teams and projects
+      responses:
+        200:
+          description: OK
+      tags:
+      - Namespaces
+      - Limitranges
+    post:
+      summary: Post Namespaces Limitranges
+      description: Create a limitrange.
+      operationId: createLimitRange
+      x-api-path-slug: apiv1beta3namespacesnamespaceslimitranges-post
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: namespaces
+        description: object name and auth scope, such as for teams and projects
+      responses:
+        200:
+          description: OK
+      tags:
+      - Namespaces
+      - Limitranges
   /api/v1beta3/namespaces/{namespaces}/limitranges/{name}:
     delete:
       summary: Delete Namespaces Limitranges Name
@@ -182,6 +333,41 @@ paths:
       - Namespaces
       - Limitranges
       - Name
+  /api/v1beta3/namespaces/{namespaces}/pods:
+    get:
+      summary: Get Namespaces Pods
+      description: List objects of kind pod.
+      operationId: listPod
+      x-api-path-slug: apiv1beta3namespacesnamespacespods-get
+      parameters:
+      - in: path
+        name: namespaces
+        description: object name and auth scope, such as for teams and projects
+      responses:
+        200:
+          description: OK
+      tags:
+      - Namespaces
+      - Pods
+    post:
+      summary: Post Namespaces Pods
+      description: Create a pod.
+      operationId: createPod
+      x-api-path-slug: apiv1beta3namespacesnamespacespods-post
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: namespaces
+        description: object name and auth scope, such as for teams and projects
+      responses:
+        200:
+          description: OK
+      tags:
+      - Namespaces
+      - Pods
   /api/v1beta3/namespaces/{namespaces}/pods/{name}:
     delete:
       summary: Delete Namespaces Pods Name

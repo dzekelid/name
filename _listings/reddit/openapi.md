@@ -13,23 +13,6 @@ produces:
 consumes:
 - application/json
 paths:
-  /v1/subreddit/emoji/emoji_name:
-    delete&nbsp;:
-      summary: Delete Subreddit Emoji Emoji Name
-      description: |-
-        Delete a Subreddit emoji.
-        Remove the emoji from Cassandra and purge the assets from S3
-        and the image resizing provider.
-      operationId: delete&nbsp;V1SubredditEmojiEmojiName
-      x-api-path-slug: v1subredditemojiemoji-name-deletenbsp
-      responses:
-        200:
-          description: OK
-      tags:
-      - Subreddit
-      - Emoji
-      - Emoji
-      - Name
   /api/search_reddit_names.json:
     get:
       summary: Get Search Reddit Names

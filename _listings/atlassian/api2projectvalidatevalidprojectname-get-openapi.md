@@ -17,6 +17,26 @@ produces:
 consumes:
 - application/json
 paths:
+  /api/2/component/{id}:
+    put:
+      summary: Update component
+      description: |-
+        Modifies a component. Any fields included in the request are overwritten. If `leadUserName` is an empty string ("") the component lead is removed. [Permissions](https://confluence.atlassian.com/x/FQiiLQ) required: Any of the following:
+
+        *   _Administer Jira_ [global permission](https://confluence.atlassian.com/x/x4dKLg).
+        *   _Administer projects_ [project permission](https://confluence.atlassian.com/x/yodKLg).
+      operationId: com.atlassian.jira.rest.v2.issue.ComponentResource.updateComponent_put
+      x-api-path-slug: api2componentid-put
+      parameters:
+      - in: header
+        name: force-account-id
+      - in: path
+        name: id
+      responses:
+        200:
+          description: OK
+      tags:
+      - Component
   /api/2/projectvalidate/validProjectName:
     get:
       summary: Get valid project name

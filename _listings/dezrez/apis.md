@@ -12,92 +12,6 @@ modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/dezrez/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Dezrez.Rezi.Client.Api - Get a list of custom field groups for a type and
-    optional group name specified.
-  x-api-slug: apicustomfieldgrouptypename-get
-  description: Get a list of custom field groups for a type and optional group name
-    specified..
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
-  humanURL: https://www.dezrez.com
-  baseURL: https://api.dezrez.com//
-  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/dezrez/apicustomfieldgrouptypename-get-openapi.md
-- name: Dezrez.Rezi.Client.Api - Get an enum by its type and system name
-  x-api-slug: apidocumentgenerationtargetgroups-get
-  description: Get an enum by its type and system name.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
-  humanURL: https://www.dezrez.com
-  baseURL: https://api.dezrez.com//
-  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/dezrez/apidocumentgenerationtargetgroups-get-openapi.md
-- name: Dezrez.Rezi.Client.Api - Get an enum by its type and system name
-  x-api-slug: apienummarketingrolestatus-get
-  description: Get an enum by its type and system name.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
-  humanURL: https://www.dezrez.com
-  baseURL: https://api.dezrez.com//
-  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/dezrez/apienummarketingrolestatus-get-openapi.md
-- name: Dezrez.Rezi.Client.Api - Get a feature by its name
-  x-api-slug: apifeaturename-get
-  description: Get a feature by its name.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
-  humanURL: https://www.dezrez.com
-  baseURL: https://api.dezrez.com//
-  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/dezrez/apifeaturename-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/dezrez/apifeaturename-get-openapi.md
-- name: Dezrez.Rezi.Client.Api - Lists the name and ID of all agencies in the system.
-  x-api-slug: apiadminsystemlistagencies-get
-  description: Lists the name and id of all agencies in the system..
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
-  humanURL: https://www.dezrez.com
-  baseURL: https://api.dezrez.com//
-  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/dezrez/apiadminsystemlistagencies-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/dezrez/apiadminsystemlistagencies-get-openapi.md
-- name: Dezrez.Rezi.Client.Api - Get a tag by its name
-  x-api-slug: apitagname-get
-  description: Get a tag by its name.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
-  humanURL: https://www.dezrez.com
-  baseURL: https://api.dezrez.com//
-  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/dezrez/apitagname-get-openapi.md
-- name: Dezrez.Rezi.Client.Api - Sends a direct message to a screen name
-  x-api-slug: apitwitterdirectmessage-post
-  description: Sends a direct message to a screen name.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
-  humanURL: https://www.dezrez.com
-  baseURL: https://api.dezrez.com//
-  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/dezrez/apitwitterdirectmessage-post-openapi.md
-- name: Dezrez.Rezi.Client.Api - Sends a direct message to a screen name
-  x-api-slug: apitwittertweet-post
-  description: Sends a direct message to a screen name.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
-  humanURL: https://www.dezrez.com
-  baseURL: https://api.dezrez.com//
-  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/dezrez/apitwittertweet-post-openapi.md
 - name: Dezrez.Rezi.Client.Api - Lists instances of a given workflow
   x-api-slug: apiadminbusinessworkflowworkflowname-get
   description: Lists instances of a given workflow.
@@ -118,6 +32,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/dezrez/apiadminbusinessworkflowworkflowname-delete-openapi.md
+- name: Dezrez.Rezi.Client.Api - Get a list of custom field groups for a type and
+    optional group name specified.
+  x-api-slug: apicustomfieldgrouptypename-get
+  description: Get a list of custom field groups for a type and optional group name
+    specified..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/dezrez/apicustomfieldgrouptypename-get-openapi.md
 - name: Dezrez.Rezi.Client.Api - Gets a list of the packs for a particular packtype
   x-api-slug: apidocumentgenerationenvelopetemplatepackssystemname-get
   description: Gets a list of the packs for a particular packtype.

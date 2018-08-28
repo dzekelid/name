@@ -12,22 +12,6 @@ modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/atlassian/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Jira Cloud REST API - Get valid project name
-  x-api-slug: api2projectvalidatevalidprojectname-get
-  description: Validates a project name. If the name is invalid, an attempt is made
-    to produce a valid name based on the supplied one. If no such valid name can be
-    found, an empty string is returned.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
-  humanURL: http://atlassian.com/
-  baseURL: https:////
-  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
-    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
-    API
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/atlassian/api2projectvalidatevalidprojectname-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/atlassian/api2projectvalidatevalidprojectname-get-openapi.md
 - name: Jira Cloud REST API - Update component
   x-api-slug: api2componentid-put
   description: |-
@@ -46,6 +30,22 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/atlassian/api2componentid-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/atlassian/api2componentid-put-openapi.md
+- name: Jira Cloud REST API - Get valid project name
+  x-api-slug: api2projectvalidatevalidprojectname-get
+  description: Validates a project name. If the name is invalid, an attempt is made
+    to produce a valid name based on the supplied one. If no such valid name can be
+    found, an empty string is returned.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/atlassian/api2projectvalidatevalidprojectname-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/atlassian/api2projectvalidatevalidprojectname-get-openapi.md
 - name: Jira Cloud REST API - Get status
   x-api-slug: api2statusidorname-get
   description: Returns a full representation of the Status having the given id or
