@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Envestnet
 x-complete: 1
@@ -213,4 +212,3 @@ paths:
       - Permalink
       - Relationship
       - Name
----

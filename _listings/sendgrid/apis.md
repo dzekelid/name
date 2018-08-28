@@ -7,13 +7,13 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgr
 x-kinRank: "9"
 x-alexaRank: "10000"
 tags: Name
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/sendgrid/apis.md
 specificationVersion: "0.14"
 apis:
-- name: SendGrid Delete Ips Pools Pool Name
-  x-api-slug: sendgrid
+- name: SendGrid - Delete Ips Pools Pool Name
+  x-api-slug: ipspoolspool-name-delete
   description: |-
     **This endpoint allows you to delete an IP pool.**
 
@@ -24,13 +24,14 @@ apis:
     If an IP pool is NOT specified for an email, it will use any IP available, including ones in pools.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//ips/pools/{pool_name}
-  tags: Email,Ips, Pools, Pool, Name
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/sendgrid/ipspoolspool-name-delete-openapi.md
-- name: SendGrid Get Ips Pools Pool Name
-  x-api-slug: sendgrid
+- name: SendGrid - Get Ips Pools Pool Name
+  x-api-slug: ipspoolspool-name-get
   description: |-
     **This endpoint allows you to list all of the IP addresses that are in a specific IP pool.**
 
@@ -41,15 +42,16 @@ apis:
     If an IP pool is NOT specified for an email, it will use any IP available, including ones in pools.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//ips/pools/{pool_name}
-  tags: Email,Ips, Pools, Pool, Name
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/sendgrid/ipspoolspool-name-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/sendgrid/ipspoolspool-name-get-openapi.md
-- name: SendGrid Put Ips Pools Pool Name
-  x-api-slug: sendgrid
+- name: SendGrid - Put Ips Pools Pool Name
+  x-api-slug: ipspoolspool-name-put
   description: |-
     **This endpoint allows you to update the name of an IP pool.**
 
@@ -60,13 +62,14 @@ apis:
     If an IP pool is NOT specified for an email, it will use any IP available, including ones in pools.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//ips/pools/{pool_name}
-  tags: Email,Ips, Pools, Pool, Name
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/sendgrid/ipspoolspool-name-put-openapi.md
-- name: SendGrid Add Ips Pools Pool Name Ips
-  x-api-slug: sendgrid
+- name: SendGrid - Add Ips Pools Pool Name Ips
+  x-api-slug: ipspoolspool-nameips-post
   description: |-
     **This endpoint allows you to add an IP address to an IP pool.**
 
@@ -75,13 +78,14 @@ apis:
     A single IP address or a range of IP addresses may be dedicated to an account in order to send email for multiple domains. The reputation of this IP is based on the aggregate performance of all the senders who use it.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//ips/pools/{pool_name}/ips
-  tags: Email,Ips, Pools, Pool, Name, Ips
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/sendgrid/ipspoolspool-nameips-post-openapi.md
-- name: SendGrid Delete Ips Pools Pool Name Ips Ip
-  x-api-slug: sendgrid
+- name: SendGrid - Delete Ips Pools Pool Name Ips Ip
+  x-api-slug: ipspoolspool-nameipsip-delete
   description: |-
     **This endpoint allows you to remove an IP address from an IP pool.**
 
@@ -90,13 +94,14 @@ apis:
     A single IP address or a range of IP addresses may be dedicated to an account in order to send email for multiple domains. The reputation of this IP is based on the aggregate performance of all the senders who use it.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//ips/pools/{pool_name}/ips/{ip}
-  tags: Email,Ips, Pools, Pool, Name, Ips, Ip
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/sendgrid/ipspoolspool-nameipsip-delete-openapi.md
-- name: SendGrid Delete Subusers Subuser Name
-  x-api-slug: sendgrid
+- name: SendGrid - Delete Subusers Subuser Name
+  x-api-slug: subuserssubuser-name-delete
   description: |-
     This endpoint allows you to delete a subuser. This is a permanent action, once deleted a subuser cannot be retrieved.
 
@@ -106,13 +111,14 @@ apis:
     * [Classroom > How do I add more subusers to my account?](https://sendgrid.com/docs/Classroom/Basics/Account/how_do_i_add_more_subusers_to_my_account.html)
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//subusers/{subuser_name}
-  tags: Email,Subusers, Subuser, Name
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/sendgrid/subuserssubuser-name-delete-openapi.md
-- name: SendGrid Patch Subusers Subuser Name
-  x-api-slug: sendgrid
+- name: SendGrid - Patch Subusers Subuser Name
+  x-api-slug: subuserssubuser-name-patch
   description: |-
     This endpoint allows you to enable or disable a subuser.
 
@@ -122,13 +128,14 @@ apis:
     * [Classroom > How do I add more subusers to my account?](https://sendgrid.com/docs/Classroom/Basics/Account/how_do_i_add_more_subusers_to_my_account.html)
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//subusers/{subuser_name}
-  tags: Email,Subusers, Subuser, Name
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/sendgrid/subuserssubuser-name-patch-openapi.md
-- name: SendGrid Put Subusers Subuser Name Ips
-  x-api-slug: sendgrid
+- name: SendGrid - Put Subusers Subuser Name Ips
+  x-api-slug: subuserssubuser-nameips-put
   description: "Each subuser should be assigned to an IP address, from which all of
     this subuser's mail will be sent. Often, this is the same IP as the parent account,
     but each subuser can have their own, or multiple, IP addresses as well. \n\nMore
@@ -136,59 +143,64 @@ apis:
     [IPs can be whitelabeled](https://sendgrid.com/docs/User_Guide/Settings/Whitelabel/ips.html)"
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//subusers/{subuser_name}/ips
-  tags: Email,Subusers, Subuser, Name, Ips
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/sendgrid/subuserssubuser-nameips-put-openapi.md
-- name: SendGrid Delete Subusers Subuser Name Monitor
-  x-api-slug: sendgrid
+- name: SendGrid - Delete Subusers Subuser Name Monitor
+  x-api-slug: subuserssubuser-namemonitor-delete
   description: Subuser monitor settings allow you to receive a sample of an outgoing
     message by a specific customer at a specific frequency of emails.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//subusers/{subuser_name}/monitor
-  tags: Email,Subusers, Subuser, Name, Monitor
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/sendgrid/subuserssubuser-namemonitor-delete-openapi.md
-- name: SendGrid Get Subusers Subuser Name Monitor
-  x-api-slug: sendgrid
+- name: SendGrid - Get Subusers Subuser Name Monitor
+  x-api-slug: subuserssubuser-namemonitor-get
   description: Subuser monitor settings allow you to receive a sample of an outgoing
     message by a specific customer at a specific frequency of emails.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//subusers/{subuser_name}/monitor
-  tags: Email,Subusers, Subuser, Name, Monitor
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/sendgrid/subuserssubuser-namemonitor-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/sendgrid/subuserssubuser-namemonitor-get-openapi.md
-- name: SendGrid Add Subusers Subuser Name Monitor
-  x-api-slug: sendgrid
+- name: SendGrid - Add Subusers Subuser Name Monitor
+  x-api-slug: subuserssubuser-namemonitor-post
   description: Subuser monitor settings allow you to receive a sample of an outgoing
     message by a specific customer at a specific frequency of emails.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//subusers/{subuser_name}/monitor
-  tags: Email,Subusers, Subuser, Name, Monitor
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/sendgrid/subuserssubuser-namemonitor-post-openapi.md
-- name: SendGrid Put Subusers Subuser Name Monitor
-  x-api-slug: sendgrid
+- name: SendGrid - Put Subusers Subuser Name Monitor
+  x-api-slug: subuserssubuser-namemonitor-put
   description: Subuser monitor settings allow you to receive a sample of an outgoing
     message by a specific customer at a specific frequency of emails.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//subusers/{subuser_name}/monitor
-  tags: Email,Subusers, Subuser, Name, Monitor
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/sendgrid/subuserssubuser-namemonitor-put-openapi.md
-- name: SendGrid Get Subusers Subuser Name Stats Monthly
-  x-api-slug: sendgrid
+- name: SendGrid - Get Subusers Subuser Name Stats Monthly
+  x-api-slug: subuserssubuser-namestatsmonthly-get
   description: |-
     **This endpoint allows you to retrive the monthly email statistics for a specific subuser.**
 
@@ -200,144 +212,21 @@ apis:
     For more information, see our [User Guide](https://sendgrid.com/docs/User_Guide/Statistics/subuser.html).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//subusers/{subuser_name}/stats/monthly
-  tags: Email,Subusers, Subuser, Name, Stats, Monthly
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/sendgrid/subuserssubuser-namestatsmonthly-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/sendgrid/subuserssubuser-namestatsmonthly-get-openapi.md
-- name: SendGrid Delete Teammates Username
-  x-api-slug: sendgrid
-  description: |-
-    This endpoint allows you to delete a teammate.
-
-    **Only the parent user or an admin teammate can delete another teammate.**
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
-  humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//teammates/{username}
-  tags: Email,Teammates, Username
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/sendgrid/teammatesusername-delete-openapi.md
-- name: SendGrid Get Teammates Username
-  x-api-slug: sendgrid
-  description: This endpoint allows you to retrieve a specific teammate by username.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
-  humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//teammates/{username}
-  tags: Email,Teammates, Username
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/sendgrid/teammatesusername-get-openapi.md
-- name: SendGrid Patch Teammates Username
-  x-api-slug: sendgrid
-  description: "This endpoint allows you to update a teammate\u2019s permissions.\n\nTo
-    turn a teammate into an admin, the request body should contain an `is_admin` set
-    to `true`. Otherwise, set `is_admin` to `false` and pass in all the scopes that
-    a teammate should have.\n\n**Only the parent user or other admin teammates can
-    update another teammate\u2019s permissions.**\n\n**Admin users can only update
-    permissions.**"
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
-  humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//teammates/{username}
-  tags: Email,Teammates, Username
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/sendgrid/teammatesusername-patch-openapi.md
-- name: SendGrid Get User Username
-  x-api-slug: sendgrid
-  description: |-
-    **This endpoint allows you to retrieve your current account username.**
-
-    Keeping your user profile up to date is important. This will help SendGrid to verify who you are as well as contact you should we need to.
-
-    For more information about your user profile:
-
-    * [SendGrid Account Settings](https://sendgrid.com/docs/User_Guide/Settings/account.html)
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
-  humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//user/username
-  tags: Email,User, Username
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/sendgrid/userusername-get-openapi.md
-- name: SendGrid Put User Username
-  x-api-slug: sendgrid
-  description: |-
-    **This endpoint allows you to update the username for your account.**
-
-    Keeping your user profile up to date is important. This will help SendGrid to verify who you are as well as contact you should we need to.
-
-    For more information about your user profile:
-
-    * [SendGrid Account Settings](https://sendgrid.com/docs/User_Guide/Settings/account.html)
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
-  humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//user/username
-  tags: Email,User, Username
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/sendgrid/userusername-put-openapi.md
-- name: SendGrid Delete User Webhooks Parse Settings Hostname
-  x-api-slug: sendgrid
-  description: |-
-    **This endpoint allows you to delete a specific inbound parse setting.**
-
-    The inbound parse webhook allows you to have incoming emails parsed, extracting some or all of the contnet, and then have that content POSTed by SendGrid to a URL of your choosing. For more information, please see our [User Guide](https://sendgrid.com/docs/API_Reference/Webhooks/parse.html).
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
-  humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//user/webhooks/parse/settings/{hostname}
-  tags: Email,User, Webhooks, Parse, Settings, Hostname
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/sendgrid/userwebhooksparsesettingshostname-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/sendgrid/userwebhooksparsesettingshostname-delete-openapi.md
-- name: SendGrid Get User Webhooks Parse Settings Hostname
-  x-api-slug: sendgrid
-  description: |-
-    **This endpoint allows you to retrieve a specific inbound parse setting.**
-
-    The inbound parse webhook allows you to have incoming emails parsed, extracting some or all of the contnet, and then have that content POSTed by SendGrid to a URL of your choosing. For more information, please see our [User Guide](https://sendgrid.com/docs/API_Reference/Webhooks/parse.html).
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
-  humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//user/webhooks/parse/settings/{hostname}
-  tags: Email,User, Webhooks, Parse, Settings, Hostname
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/sendgrid/userwebhooksparsesettingshostname-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/sendgrid/userwebhooksparsesettingshostname-get-openapi.md
-- name: SendGrid Patch User Webhooks Parse Settings Hostname
-  x-api-slug: sendgrid
-  description: |-
-    **This endpoint allows you to update a specific inbound parse setting.**
-
-    The inbound parse webhook allows you to have incoming emails parsed, extracting some or all of the contnet, and then have that content POSTed by SendGrid to a URL of your choosing. For more information, please see our [User Guide](https://sendgrid.com/docs/API_Reference/Webhooks/parse.html).
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
-  humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//user/webhooks/parse/settings/{hostname}
-  tags: Email,User, Webhooks, Parse, Settings, Hostname
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/sendgrid/userwebhooksparsesettingshostname-patch-openapi.md
-- name: SendGrid
-  x-api-slug: sendgrid
-  description: SendGrids cloud-based email infrastructure relieves businesses of the
-    cost and complexity of maintaining custom email systems. SendGrid provides reliable
-    delivery, scalability and real-time analytics along with flexible APIs that make
-    custom integration a breeze.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
-  humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3
-  tags: Name
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/sendgrid/openapi.md
 x-common:
 - type: x--net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
+- type: x-api-gallery
+  url: http://school.digger.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://sendgrid.stack.network
 - type: x-base
   url: https://api.sendgrid.com
 - type: x-blog

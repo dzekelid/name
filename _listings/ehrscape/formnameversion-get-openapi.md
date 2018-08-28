@@ -6,14 +6,14 @@ info:
   title: Ehr Scape Electronic Health Record APIs Loads a Think!Ehr form.
   description: Loads a think!ehr form..
   version: 1.0.0
-host: rest.ehrscape.com
-basePath: /rest/v1
 schemes:
 - http
 produces:
 - application/json
 consumes:
 - application/json
+host: rest.ehrscape.com
+basePath: /rest/v1
 paths:
   /form/{name}/{version}:
     get:

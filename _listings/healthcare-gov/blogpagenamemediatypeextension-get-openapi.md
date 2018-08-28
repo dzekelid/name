@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Healthcare.gov
 x-complete: 0
 info:
-  title: HealthCare.gov Get Blog Pagename
+  title: Healthcare.gov Get Blog Page Name Media Type Extension
   version: 1.0.0
   description: Returns pages content.
 host: www.healthcare.gov
@@ -17,9 +17,9 @@ consumes:
 paths:
   /blog/{pageName}{mediaTypeExtension}:
     get:
-      summary: Get Blog Pagename
+      summary: Get Blog Page Name Media Type Extension
       description: Returns pages content.
-      operationId: getBlogPagenameMediatypeextension
+      operationId: returns-pages-content
       x-api-path-slug: blogpagenamemediatypeextension-get
       parameters:
       - in: path
@@ -31,8 +31,13 @@ paths:
         200:
           description: OK
       tags:
+      - Insurance
       - Blog
-      - Pagename
+      - Page
+      - Name
+      - Media
+      - Type
+      - Extension
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

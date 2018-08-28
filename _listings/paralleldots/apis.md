@@ -11,13 +11,13 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Name
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/paralleldots/apis.md
 specificationVersion: "0.14"
 apis:
-- name: ParallelDots Name Entity Recognition
-  x-api-slug: paralleldots
+- name: ParallelDots AI APIs Docs - Name Entity Recognition
+  x-api-slug: ner-post
   description: |-
     # Introduction
     What does your API do?
@@ -62,28 +62,16 @@ apis:
     There is no rate limit as such but too many concurrent requests will throw 504 time-out error from nginx.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paralleldots-logo.png
   humanURL: https://www.paralleldots.com/
-  baseURL: https://apis.paralleldots.com//v3//ner
-  tags: Machine Learning,Name, Entity, Recognition
+  baseURL: https://apis.paralleldots.com//v3
+  tags: Machine Learning, Service API, Relative Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/paralleldots/ner-post-openapi.md
-- name: ParallelDots
-  x-api-slug: paralleldots
-  description: ParallelDots is one of the best applied AI research groups in the world.
-    We work with enterprises globally to tackle challenging business problems and
-    create the winners of tomorrow. We also provide AI consulting services to explore
-    the what, why, how and who about deploying AI in businesses. Try-out our cutting
-    edge text analysis APIs and join the community of 1,000+ global users. Contact
-    us at contact@paralleldots.com and tell us about the challenging business problems
-    that you are facing.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paralleldots-logo.png
-  humanURL: https://www.paralleldots.com/
-  baseURL: https://apis.paralleldots.com//v3
-  tags: Name
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/paralleldots/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://pagerduty.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://paralleldots.stack.network
 - type: x-blog
   url: https://blog.paralleldots.com/
 - type: x-developer

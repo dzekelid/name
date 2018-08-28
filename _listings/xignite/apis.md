@@ -7,120 +7,89 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "383974"
 tags: Name
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/xignite/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Xignite Calendar Get Events By Event Name
-  x-api-slug: xignite-calendar
+- name: Xignite Calendar - Get Events By Event Name
+  x-api-slug: geteventsbyeventname-get
   description: Get events based on the event name and optionally within a specified
     released range.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xCalendar.json/XigniteCalendar//GetEventsByEventName
-  tags: Market Data,Events, Event, Name
+  baseURL: https://www.xignite.com/xCalendar.json/XigniteCalendar
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/xignite/geteventsbyeventname-get-openapi.md
-- name: Xignite Calendar
-  x-api-slug: xignite-calendar
-  description: Financial market data on-demand. Xignite financial Web services help
-    build smarter websites and applications in minutes with zero up-front investment.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xCalendar.json/XigniteCalendar
-  tags: Name
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/xignite/openapi.md
-- name: Xignite Global Indices Search Indices By Name
-  x-api-slug: xignite-global-indices
+- name: Xignite Global Indices - Search Indices By Name
+  x-api-slug: searchindicesbyname-get
   description: Search indices by name.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://globalindices.xignite.com/xglobalindices.json/XigniteGlobalIndices//SearchIndicesByName
-  tags: Market Data,Search, Indices, Name
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/xignite/searchindicesbyname-get-openapi.md
-- name: Xignite Global Indices
-  x-api-slug: xignite-global-indices
-  description: Financial market data on-demand. Xignite financial Web services help
-    build smarter websites and applications in minutes with zero up-front investment.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://globalindices.xignite.com/xglobalindices.json/XigniteGlobalIndices
-  tags: Name
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/xignite/openapi.md
-- name: Xignite Global Indices Historical Search Indices By Name
-  x-api-slug: xignite-global-indices-historical
-  description: Search indices by name.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://globalindiceshistorical.xignite.com/xglobalindiceshistorical.json/XigniteGlobalIndicesHistorical//SearchIndicesByName
-  tags: Market Data,Search, Indices, Name
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/xignite/searchindicesbyname-get-openapi.md
-- name: Xignite Global Indices Historical
-  x-api-slug: xignite-global-indices-historical
-  description: Financial market data on-demand. Xignite financial Web services help
-    build smarter websites and applications in minutes with zero up-front investment.
+- name: Xignite Global Indices Historical - Search Indices By Name
+  x-api-slug: searchindicesbyname-get
+  description: Search indices by name.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://globalindiceshistorical.xignite.com/xglobalindiceshistorical.json/XigniteGlobalIndicesHistorical
-  tags: Name
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/xignite/openapi.md
-- name: Xignite Global Indices Real Time Search Indices By Name
-  x-api-slug: xignite-global-indices-real-time
-  description: Search indices by name.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://globalindicesrealtime.xignite.com/xglobalindicesrealtime.json/XigniteGlobalIndicesRealTime//SearchIndicesByName
-  tags: Market Data,Search, Indices, Name
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/xignite/searchindicesbyname-get-openapi.md
-- name: Xignite Global Indices Real Time
-  x-api-slug: xignite-global-indices-real-time
-  description: Financial market data on-demand. Xignite financial Web services help
-    build smarter websites and applications in minutes with zero up-front investment.
+- name: Xignite Global Indices Real Time - Search Indices By Name
+  x-api-slug: searchindicesbyname-get
+  description: Search indices by name.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://globalindicesrealtime.xignite.com/xglobalindicesrealtime.json/XigniteGlobalIndicesRealTime
-  tags: Name
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/xignite/openapi.md
-- name: Xignite IPOs Search IPO By Name
-  x-api-slug: xignite-ipos
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/xignite/searchindicesbyname-get-openapi.md
+- name: Xignite IPOs - Search IPO By Name
+  x-api-slug: searchipobyname-get
   description: Post searchipobyname
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://ipos.xignite.com/xIPOs.json/XigniteIPOs//SearchIPOByName
-  tags: Market Data,Search, IPO, Name
+  baseURL: https://ipos.xignite.com/xIPOs.json/XigniteIPOs
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/xignite/searchipobyname-get-openapi.md
-- name: Xignite IPOs
-  x-api-slug: xignite-ipos
-  description: Financial market data on-demand. Xignite financial Web services help
-    build smarter websites and applications in minutes with zero up-front investment.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://ipos.xignite.com/xIPOs.json/XigniteIPOs
-  tags: Name
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/xignite/openapi.md
 x-common:
 - type: x--net-sdk
   url: http://xignite.github.io/DotNetSDK/
+- type: x-api-gallery
+  url: http://xibo.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://xignite.stack.network
 - type: x-base
   url: http://globalmaster.xignite.com
 - type: x-case-studies

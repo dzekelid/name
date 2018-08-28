@@ -18,26 +18,6 @@ produces:
 consumes:
 - application/json
 paths:
-  /skills:
-    get:
-      summary: Skill Names and Descriptions
-      description: Retrieve the names, descriptions, and UUIDs of all skills.
-      operationId: retrieve-the-names-descriptions-and-uuids-of-all-skills
-      x-api-path-slug: skills-get
-      parameters:
-      - in: query
-        name: limit
-        description: Maximum number of items per page
-      - in: query
-        name: offset
-        description: Pagination offset
-      responses:
-        200:
-          description: OK
-      tags:
-      - Skill
-      - Names
-      - Descriptions
   /skills/{id}:
     get:
       summary: Skill Name and Description

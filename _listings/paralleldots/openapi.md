@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: ParallelDots
 x-complete: 1
@@ -75,4 +74,3 @@ paths:
       - Name
       - Entity
       - Recognition
----

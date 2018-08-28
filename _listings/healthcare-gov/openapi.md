@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Healthcare.gov
 x-complete: 1
@@ -16,9 +15,9 @@ consumes:
 paths:
   /blog/{pageName}{mediaTypeExtension}:
     get:
-      summary: Get Blog Pagename
+      summary: Get Blog Page Name Media Type Extension
       description: Returns pages content.
-      operationId: getBlogPagenameMediatypeextension
+      operationId: returns-pages-content
       x-api-path-slug: blogpagenamemediatypeextension-get
       parameters:
       - in: path
@@ -30,13 +29,18 @@ paths:
         200:
           description: OK
       tags:
+      - Insurance
       - Blog
-      - Pagename
+      - Page
+      - Name
+      - Media
+      - Type
+      - Extension
   /es/blog/{pageName}{mediaTypeExtension}:
     get:
-      summary: Get Es Blog Pagename
+      summary: GetBlog Page Name Media Type Extension
       description: Returns pages content.
-      operationId: getEsBlogPagenameMediatypeextension
+      operationId: returns-pages-content
       x-api-path-slug: esblogpagenamemediatypeextension-get
       parameters:
       - in: path
@@ -48,14 +52,18 @@ paths:
         200:
           description: OK
       tags:
-      - Es
+      - Insurance
       - Blog
-      - Pagename
+      - Page
+      - Name
+      - Media
+      - Type
+      - Extension
   /es/glossary/{pageName}{mediaTypeExtension}:
     get:
-      summary: Get Es Glossary Pagename
+      summary: Get Glossary Page Name Media Type Extension
       description: Returns pages content.
-      operationId: getEsGlossaryPagenameMediatypeextension
+      operationId: returns-pages-content
       x-api-path-slug: esglossarypagenamemediatypeextension-get
       parameters:
       - in: path
@@ -67,14 +75,18 @@ paths:
         200:
           description: OK
       tags:
-      - Es
+      - Insurance
       - Glossary
-      - Pagename
+      - Page
+      - Name
+      - Media
+      - Type
+      - Extension
   /es/question/{pageName}{mediaTypeExtension}:
     get:
-      summary: Get Es Question Pagename
+      summary: Get Question Page Name Media Type Extension
       description: Returns pages content.
-      operationId: getEsQuestionPagenameMediatypeextension
+      operationId: returns-pages-content
       x-api-path-slug: esquestionpagenamemediatypeextension-get
       parameters:
       - in: path
@@ -86,14 +98,18 @@ paths:
         200:
           description: OK
       tags:
-      - Es
+      - Insurance
       - Question
-      - Pagename
+      - Page
+      - Name
+      - Media
+      - Type
+      - Extension
   /es/{pageName}{mediaTypeExtension}:
     get:
-      summary: Get Es Pagename
+      summary: Get Page Name Media Type Extension
       description: Returns pages content.
-      operationId: getEsPagenameMediatypeextension
+      operationId: returns-pages-content
       x-api-path-slug: espagenamemediatypeextension-get
       parameters:
       - in: path
@@ -105,13 +121,17 @@ paths:
         200:
           description: OK
       tags:
-      - Es
-      - Pagename
-  /es/{stateName}{mediaTypeExtension}:
+      - Insurance
+      - Page
+      - Name
+      - Media
+      - Type
+      - Extension
+  /es/{stateName}{mediaTypeExtension}/:
     get:
-      summary: Get Es Statename
+      summary: Get State Name Media Type Extension
       description: Returns pages content.
-      operationId: getEsStatenameMediatypeextension
+      operationId: returns-pages-content
       x-api-path-slug: esstatenamemediatypeextension-get
       parameters:
       - in: path
@@ -123,13 +143,17 @@ paths:
         200:
           description: OK
       tags:
-      - Es
-      - Statename
+      - Insurance
+      - State
+      - Name
+      - Media
+      - Type
+      - Extension
   /glossary/{pageName}{mediaTypeExtension}:
     get:
-      summary: Get Glossary Pagename
+      summary: Get Glossary Page Name Media Type Extension
       description: Returns pages content.
-      operationId: getGlossaryPagenameMediatypeextension
+      operationId: returns-pages-content
       x-api-path-slug: glossarypagenamemediatypeextension-get
       parameters:
       - in: path
@@ -141,13 +165,18 @@ paths:
         200:
           description: OK
       tags:
+      - Insurance
       - Glossary
-      - Pagename
+      - Page
+      - Name
+      - Media
+      - Type
+      - Extension
   /question/{pageName}{mediaTypeExtension}:
     get:
-      summary: Get Question Pagename
+      summary: Get Question Page Name Media Type Extension
       description: Returns pages content.
-      operationId: getQuestionPagenameMediatypeextension
+      operationId: returns-pages-content
       x-api-path-slug: questionpagenamemediatypeextension-get
       parameters:
       - in: path
@@ -159,13 +188,18 @@ paths:
         200:
           description: OK
       tags:
+      - Insurance
       - Question
-      - Pagename
+      - Page
+      - Name
+      - Media
+      - Type
+      - Extension
   /{pageName}{mediaTypeExtension}:
     get:
-      summary: Get Pagename
+      summary: Get Page Name Media Type Extension
       description: Returns pages content.
-      operationId: getPagenameMediatypeextension
+      operationId: returns-pages-content
       x-api-path-slug: pagenamemediatypeextension-get
       parameters:
       - in: path
@@ -177,12 +211,17 @@ paths:
         200:
           description: OK
       tags:
-      - Pagename
-  /{stateName}{mediaTypeExtension}:
+      - Insurance
+      - Page
+      - Name
+      - Media
+      - Type
+      - Extension
+  /{stateName}{mediaTypeExtension}/:
     get:
-      summary: Get Statename
+      summary: Get State Name Media Type Extension
       description: Returns pages content.
-      operationId: getStatenameMediatypeextension
+      operationId: returns-pages-content
       x-api-path-slug: statenamemediatypeextension-get
       parameters:
       - in: path
@@ -194,5 +233,9 @@ paths:
         200:
           description: OK
       tags:
-      - Statename
----
+      - Insurance
+      - State
+      - Name
+      - Media
+      - Type
+      - Extension

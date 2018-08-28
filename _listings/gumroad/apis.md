@@ -6,33 +6,28 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1067-gumro
 x-kinRank: "8"
 x-alexaRank: "4658"
 tags: Name
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/gumroad/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Gumroad Put Products Custom Fields Name
-  x-api-slug: gumroad
+- name: Gumroad - Put Products Custom Fields Name
+  x-api-slug: productsproduct-idcustom-fieldsname-put
   description: Edit an existing products custom field.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1067-gumroad.jpg
   humanURL: http://gumroad.com
-  baseURL: https://api.gumroad.com//v2//products/:product_id/custom_fields/:name
-  tags: Products,Custom,Fields,:name
+  baseURL: https://api.gumroad.com//v2
+  tags: Commerce, Shopping, Social, Videos, Music, Documents, Videos, My API Stack,
+    Target, Stack Network, Media, Technology, internet, Marketplace, Services, API
+    Provider, Products, Profiles, Relative Data, Service API, General Data, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/gumroad/productsproduct-idcustom-fieldsname-put-openapi.md
-- name: Gumroad
-  x-api-slug: gumroad
-  description: Share and sell exclusive videos directly to your followers. Selling
-    stuff has always been a pain. No longer! Get back to creating.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1067-gumroad.jpg
-  humanURL: http://gumroad.com
-  baseURL: https://api.gumroad.com//v2
-  tags: Name
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/name/master/_listings/gumroad/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://gsa.per.diem.api.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://gumroad.stack.network
 - type: x-application-management
   url: https://gumroad.com/settings/developer
 - type: x-base

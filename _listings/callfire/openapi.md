@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: CallFire
 x-complete: 1
@@ -44,25 +43,3 @@ paths:
       - Calls
       - Recordings
       - Name
-  /calls/{id}/recordings/{name}.mp3:
-    get:
-      summary: Get call mp3 recording by name
-      description: Returns a MP3 recording of a particular call, response contains
-        binary data, content type is 'audio/mpeg'
-      operationId: getCallRecordingMp3ByName
-      x-api-path-slug: callsidrecordingsname-mp3-get
-      parameters:
-      - in: path
-        name: id
-        description: An id of a call
-      - in: path
-        name: name
-        description: A name of a recording
-      responses:
-        200:
-          description: OK
-      tags:
-      - Calls
-      - Recordings
-      - Name.mp3
----

@@ -1,12 +1,9 @@
----
 swagger: "2.0"
 x-collection-name: Mattermost
 x-complete: 1
 info:
-  title: Mattermost API Reference
-  description: -api-v4-is-stable-with-the-mattermost-server-4-0-release--api-v3-was-deprecated-on-january-16th-2018-and-scheduled-for-removal-in-mattermost-v5-0--details-heretagapiv3deprecation--looking-for-the-api-v3-reference-it-has-moved-herehttpsapi-mattermost-comv3-
-  termsOfService: https://about.mattermost.com/default-terms/
-  version: 4.0.0
+  title: Mattermost
+  version: 1.0.0
 host: your-mattermost-url.com
 basePath: /api/v4
 schemes:
@@ -16,48 +13,6 @@ produces:
 consumes:
 - application/json
 paths:
-  /users/usernames:
-    post:
-      summary: Get users by usernames
-      description: |-
-        Get a list of users based on a provided list of usernames.
-        ##### Permissions
-        Requires an active session but no other permissions.
-      operationId: get-a-list-of-users-based-on-a-provided-list-of-usernames-permissionsrequires-an-active-session-but-
-      x-api-path-slug: usersusernames-post
-      parameters:
-      - in: body
-        name: body
-        description: List of usernames
-        schema:
-          $ref: '#/definitions/holder'
-      responses:
-        200:
-          description: OK
-      tags:
-      - Users
-      - By
-      - Usernames
-  /users/username/{username}:
-    get:
-      summary: Get a user by username
-      description: |-
-        Get a user object by providing a username. Sensitive information will be sanitized out.
-        ##### Permissions
-        Requires an active session but no other permissions.
-      operationId: get-a-user-object-by-providing-a-username-sensitive-information-will-be-sanitized-out-permissionsreq
-      x-api-path-slug: usersusernameusername-get
-      parameters:
-      - in: path
-        name: username
-        description: Username
-      responses:
-        200:
-          description: OK
-      tags:
-      - User
-      - By
-      - Username
   /teams/name/{name}:
     get:
       summary: Get a team by name
@@ -176,4 +131,3 @@ paths:
       - Roles
       - By
       - Name
----

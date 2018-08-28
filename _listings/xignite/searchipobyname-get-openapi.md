@@ -15,6 +15,45 @@ produces:
 consumes:
 - application/json
 paths:
+  /GetEventsByEventName:
+    get:
+      summary: Get Events By Event Name
+      description: Get events based on the event name and optionally within a specified
+        released range.
+      operationId: postGeteventsbyeventname
+      x-api-path-slug: geteventsbyeventname-get
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Market Data
+      - Events
+      - Event
+      - Name
+  /SearchIndicesByName:
+    get:
+      summary: Search Indices By Name
+      description: Search indices by name.
+      operationId: SearchIndicesByName
+      x-api-path-slug: searchindicesbyname-get
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Market Data
+      - Search
+      - Indices
+      - Name
   /SearchIPOByName:
     get:
       summary: Search IPO By Name

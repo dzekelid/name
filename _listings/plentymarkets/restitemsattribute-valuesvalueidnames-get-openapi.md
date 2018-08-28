@@ -1,0 +1,75 @@
+---
+swagger: "2.0"
+x-collection-name: Plentymarkets
+x-complete: 0
+info:
+  title: Plentymarkets Get name and language for an attribute value ID
+  description: Gets name and language for an attribute value ID. The attribute value
+    ID must be specified.
+  contact:
+    name: plentymarkets
+    url: https://forum.plentymarkets.com/c/rest-api
+  version: 1.0.0
+host: example.com
+basePath: /
+schemes:
+- http
+produces:
+- application/json
+consumes:
+- application/json
+paths:
+  /rest/backend/users/search_name/{name}:
+    get:
+      summary: Find all users having a name or username like the given one.
+      description: Find all users having a name or username like the given one..
+      operationId: getRestBackendUsersSearchNameName
+      x-api-path-slug: restbackenduserssearch-namename-get
+      parameters:
+      - in: path
+        name: name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Find
+      - ""
+      - Users
+      - Having
+      - Name
+      - Username
+      - Like
+      - Given
+  /rest/items/attribute_values/{valueId}/names:
+    get:
+      summary: Get name and language for an attribute value ID
+      description: Gets name and language for an attribute value ID. The attribute
+        value ID must be specified.
+      operationId: getRestItemsAttributeValuesValueNames
+      x-api-path-slug: restitemsattribute-valuesvalueidnames-get
+      parameters:
+      - in: path
+        name: valueId
+      responses:
+        200:
+          description: OK
+      tags:
+      - Name
+      - Languagean
+      - Attribute
+      - Value
+      - ID
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---
